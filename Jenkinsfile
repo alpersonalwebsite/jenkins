@@ -4,9 +4,6 @@ pipeline {
     stage('Build') {
       steps {
         sh 'echo "Hello World"'
-        sh ''' echo "Multiline shell steps works too. Jenkins is your friend... Or not...?"
-                  ls -lah
-            '''
       }
     }
 
